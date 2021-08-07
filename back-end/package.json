@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "build": "mkdir images",
     "start": "nodemon server"
   },
   "author": "",
