@@ -1,3 +1,4 @@
+// checks if the mail is in the correct format using a regex
 module.exports = (req, res, next) => {
     const validEmail = (email) => {
         let emailRegex = /^[a-zA-Z0-9À-ÿ!#$%&'*+/=?^_\`{|}~-]+(\.[a-zA-Z0-9À-ÿ!#$%&'*+/=?^_\`{|}~-]+)*@([a-zA-ZÀ-ÿ0-9]+\.)+[a-zA-ZÀ-ÿ0-9]{2,}$/
