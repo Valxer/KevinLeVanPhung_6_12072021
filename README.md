@@ -21,5 +21,5 @@ La document nous donne l'ensemble des requêtes à couvrir
 3. Dans VSCode ouvrez un terminal :  
 	* Tapez ``cd back-end/ && npm install`` pour installer les dépendances du Back-end du site
     * Tapez ensuite ``npm run build`` pour créer le dossier images qui servira à stocker les images des sauces créées
-    * Enfin tapez ``npm run start`` pour lancer le serveur de l'API et vérifiez que celle ci est bine lancée sur le port 3000.
+    * Enfin tapez ``npm start`` pour lancer le serveur de l'API et vérifiez que celle ci est bine lancée sur le port 3000.
 Vous êtes désormais connecté au back-end vous pouvez accéder au site et faire vos test
